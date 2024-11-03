@@ -1,0 +1,43 @@
+name: chat_app_flutter
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^0.13.4
+  bloc: ^8.1.4
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.6
+  get_it: ^8.0.0
+  dio: ^5.7.0
+  fpdart: ^1.1.0
+  shared_preferences: ^2.3.2
+  flutter_dotenv: ^5.1.0
+  intl: ^0.19.0
+  flutter_keyboard_visibility: ^6.0.0
+  image_picker: ^1.1.2
+  socket_io_client: ^3.0.0
+  scrollable_positioned_list: ^0.3.8
+  email_validator: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - images/
